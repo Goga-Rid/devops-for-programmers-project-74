@@ -2,9 +2,8 @@ version: '3.8'
 
 services:
   app:
+    image: gogarid/devops-for-programmers-project-74
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.production
     command: npm test
-    volumes:
-      - ./app:/app
