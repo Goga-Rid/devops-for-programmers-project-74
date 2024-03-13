@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile.production
     image: gogarid/devops-for-programmers-project-74:latest
-    command: bash -c 'sleep 5 && npm test'
+    command: npm test
     environment:
       - DATABASE_HOST=db
       - DATABASE_NAME=postgres
