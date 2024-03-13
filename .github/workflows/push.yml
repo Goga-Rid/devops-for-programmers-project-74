@@ -37,5 +37,5 @@ jobs:
       with:
         context: .
         push: true
-        file: Dockerfile.production
+        file: ./Dockerfile.production
         tags: gogarid/devops-for-programmers-project-74:latest
