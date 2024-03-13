@@ -36,6 +36,6 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
+        file: Dockerfile.production
         push: true
-        file: ./Dockerfile.production
         tags: gogarid/devops-for-programmers-project-74:latest
