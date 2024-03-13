@@ -18,7 +18,7 @@ jobs:
 
     - name: Making test
       run: |
-        make compose-test
+        make ci
 
   build_and_push:
     needs: test_image
