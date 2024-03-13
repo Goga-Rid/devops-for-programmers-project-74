@@ -11,7 +11,7 @@ This project shows the process of packaging the js-fastify-blog application into
 The application already adheres to the 12-factor methodology, minimizing differences between development and production environments.
 Upon successful completion of CI, the application image is built and published to hub.docker.com.
 
-[https://hub.docker.com/repository/docker/gogarid/devops-for-programmers-project-74/general](URL){:target="_blank"}
+https://hub.docker.com/repository/docker/gogarid/devops-for-programmers-project-74/general
 
 This streamlines the setup and deployment process to a matter of minutes, requiring minimal instructions.
 
